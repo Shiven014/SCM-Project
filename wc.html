@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="shiven.css"/>
+    <script src="wordcounter.js"></script>
+    <title>Word Counter</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Word and Character Counter</h1>
+      <Label for="text-input">Enter text or upload a file:</Label>
+      <textarea id="text-input" placeholder="Type your text here..."></textarea>
+      <input type="file" id="file-input">
+      <div class="count-info">
+        <p class="count-label">Word count:</p>
+        <p class="count-value" id="word-count">0</p>
+      </div>
+      <div class="count-info">
+        <p class="count-label">Character count (including spaces):</p>
+        <p class="count-value" id="char-count">0</p>
+      </div>
+      
+    </div>
+  </body>
+</html>
